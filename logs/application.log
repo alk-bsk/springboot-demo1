@@ -1,0 +1,205 @@
+2020-09-03 11:00:20 - No active profile set, falling back to default profiles: default
+2020-09-03 11:00:22 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 11:00:23 - Finished Spring Data repository scanning in 339ms. Found 2 JPA repository interfaces.
+2020-09-03 11:00:23 - BeanFactory id=37fbdecf-6ae5-3cbc-a212-da2546d7c5d2
+2020-09-03 11:00:23 - Bean 'com.alk.project.demo.feign.FeignClientImp' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:00:23 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@48b94149' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:00:23 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:00:25 - Tomcat initialized with port(s): 8082 (http)
+2020-09-03 11:00:25 - Starting service [Tomcat]
+2020-09-03 11:00:25 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 11:00:27 - Initializing Spring embedded WebApplicationContext
+2020-09-03 11:00:27 - Root WebApplicationContext: initialization completed in 6139 ms
+2020-09-03 11:00:27 - HikariPool-1 - Starting...
+2020-09-03 11:00:29 - HikariPool-1 - Start completed.
+2020-09-03 11:00:29 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:d://test'
+2020-09-03 11:00:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 11:00:32 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 11:00:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 11:00:32 - HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-03 11:00:33 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 11:00:34 - LiveReload server is running on port 35729
+2020-09-03 11:00:34 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 11:00:34 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-03 11:00:36 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 11:00:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 11:00:37 - Spring Data repositories initialized!
+2020-09-03 11:00:38 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52faa9ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@48e5a143, org.springframework.security.web.header.HeaderWriterFilter@426361a, org.springframework.security.web.authentication.logout.LogoutFilter@6777ea53, com.alk.project.demo.security.JwtRequestFilter@4fba1817, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e859d35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5519e947, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38296c4a, org.springframework.security.web.session.SessionManagementFilter@4e450948, org.springframework.security.web.access.ExceptionTranslationFilter@69ab276e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2742452b]
+2020-09-03 11:00:38 - No spring.application.name found, defaulting to 'application'
+2020-09-03 11:00:38 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 11:00:38 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 11:00:38 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 11:00:38 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 11:00:39 - Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-03 11:00:40 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 11:00:40 - Spring Data repositories initialized!
+2020-09-03 11:00:40 - Started DemoApplication in 21.396 seconds (JVM running for 25.588)
+2020-09-03 11:00:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 11:00:59 - Initializing Servlet 'dispatcherServlet'
+2020-09-03 11:00:59 - Completed initialization in 16 ms
+2020-09-03 11:01:26 - ===>>> Service method : EmployeeServiceImp.getEmployees()
+2020-09-03 11:01:26 - ===>>> Service Return : [Employee [id=1, firstName=aloke, lastName=basak]]
+2020-09-03 11:01:26 - ===>>> Controller method : EmployeeController.getEmployee()
+2020-09-03 11:01:26 - ===>>> Controller Return : <200 OK OK,[Employee [id=1, firstName=aloke, lastName=basak]],[]>
+2020-09-03 11:02:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 11:02:38 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 11:02:38 - HikariPool-1 - Shutdown initiated...
+2020-09-03 11:02:38 - HikariPool-1 - Shutdown completed.
+2020-09-03 11:02:39 - No active profile set, falling back to default profiles: default
+2020-09-03 11:02:40 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 11:02:41 - Finished Spring Data repository scanning in 238ms. Found 2 JPA repository interfaces.
+2020-09-03 11:02:41 - BeanFactory id=37fbdecf-6ae5-3cbc-a212-da2546d7c5d2
+2020-09-03 11:02:41 - Bean 'com.alk.project.demo.feign.FeignClientImp' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:02:41 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@27da7f5c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:02:41 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 11:02:43 - Tomcat initialized with port(s): 8082 (http)
+2020-09-03 11:02:43 - Starting service [Tomcat]
+2020-09-03 11:02:43 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 11:02:43 - Initializing Spring embedded WebApplicationContext
+2020-09-03 11:02:43 - Root WebApplicationContext: initialization completed in 4094 ms
+2020-09-03 11:02:43 - HikariPool-2 - Starting...
+2020-09-03 11:02:43 - HikariPool-2 - Start completed.
+2020-09-03 11:02:43 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:d://test'
+2020-09-03 11:02:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 11:02:44 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 11:02:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 11:02:44 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-03 11:02:44 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 11:02:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 11:02:44 - LiveReload server is running on port 35729
+2020-09-03 11:02:44 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 11:02:44 - Spring Data repositories initialized!
+2020-09-03 11:02:44 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2273e0a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@e7dd003, org.springframework.security.web.header.HeaderWriterFilter@3369f90a, org.springframework.security.web.authentication.logout.LogoutFilter@19ee4fd, com.alk.project.demo.security.JwtRequestFilter@783ec087, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b27aa85, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@177aaf42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4092c51a, org.springframework.security.web.session.SessionManagementFilter@7cf15fc4, org.springframework.security.web.access.ExceptionTranslationFilter@3c5b3c9d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@154ec21d]
+2020-09-03 11:02:44 - No spring.application.name found, defaulting to 'application'
+2020-09-03 11:02:44 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 11:02:44 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 11:02:45 - Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-03 11:02:45 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 11:02:45 - Spring Data repositories initialized!
+2020-09-03 11:02:45 - Started DemoApplication in 7.452 seconds (JVM running for 151.355)
+2020-09-03 11:02:45 - Condition evaluation unchanged
+2020-09-03 11:03:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 11:03:15 - Initializing Servlet 'dispatcherServlet'
+2020-09-03 11:03:15 - Completed initialization in 5 ms
+2020-09-03 11:03:49 - ===>>> Advice method : EmployeeControllerAdvice.handleException(..)
+2020-09-03 11:03:49 - ===>>> Advice Return : <400 BAD_REQUEST Bad Request,EmployeeExceptionHandler [status=400, message=Content type 'text/plain;charset=UTF-8' not supported, timeStamp=1599111229970],[]>
+2020-09-03 11:03:49 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2020-09-03 11:04:46 - ===>>> Service method : EmployeeServiceImp.getEmployees()
+2020-09-03 11:04:46 - ===>>> Service Return : [Employee [id=1, firstName=aloke, lastName=basak]]
+2020-09-03 11:04:46 - ===>>> Controller method : EmployeeController.getEmployee()
+2020-09-03 11:04:46 - ===>>> Controller Return : <200 OK OK,[Employee [id=1, firstName=aloke, lastName=basak]],[]>
+2020-09-03 11:05:04 - ===>>> Advice method : EmployeeControllerAdvice.handleException(..)
+2020-09-03 11:05:04 - ===>>> Advice Return : <400 BAD_REQUEST Bad Request,EmployeeExceptionHandler [status=400, message=Content type 'text/plain;charset=UTF-8' not supported, timeStamp=1599111304263],[]>
+2020-09-03 11:05:04 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+2020-09-03 11:05:13 - ===>>> Dao method : JpaRepository.saveAndFlush(..)
+2020-09-03 11:05:13 - ===>>> Dao Return : Employee [id=2, firstName=test, lastName=test1]
+2020-09-03 11:05:13 - ===>>> Service method : EmployeeServiceImp.registerEmployee(..)
+2020-09-03 11:05:13 - ===>>> Service Return : Employee [id=2, firstName=test, lastName=test1]
+2020-09-03 11:05:13 - ===>>> Controller method : EmployeeController.createEmployee(..)
+2020-09-03 11:05:13 - ===>>> Controller Return : <201 CREATED Created,Employee [id=2, firstName=test, lastName=test1],[]>
+2020-09-03 11:05:25 - ===>>> Service method : EmployeeServiceImp.getEmployees()
+2020-09-03 11:05:25 - ===>>> Service Return : [Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]]
+2020-09-03 11:05:25 - ===>>> Controller method : EmployeeController.getEmployee()
+2020-09-03 11:05:25 - ===>>> Controller Return : <200 OK OK,[Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]],[]>
+2020-09-03 11:06:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 11:06:13 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-03 11:06:13 - HikariPool-2 - Shutdown initiated...
+2020-09-03 11:06:14 - HikariPool-2 - Shutdown completed.
+2020-09-03 11:06:15 - No active profile set, falling back to default profiles: default
+2020-09-03 11:06:16 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 14:45:31 - No active profile set, falling back to default profiles: default
+2020-09-03 14:45:32 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 14:45:33 - Finished Spring Data repository scanning in 321ms. Found 2 JPA repository interfaces.
+2020-09-03 14:45:33 - BeanFactory id=37fbdecf-6ae5-3cbc-a212-da2546d7c5d2
+2020-09-03 14:45:33 - Bean 'com.alk.project.demo.feign.FeignClientImp' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 14:45:33 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3fc85dba' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 14:45:33 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 14:45:35 - Tomcat initialized with port(s): 8082 (http)
+2020-09-03 14:45:35 - Starting service [Tomcat]
+2020-09-03 14:45:35 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 14:45:36 - Initializing Spring embedded WebApplicationContext
+2020-09-03 14:45:36 - Root WebApplicationContext: initialization completed in 5067 ms
+2020-09-03 14:45:36 - HikariPool-1 - Starting...
+2020-09-03 14:45:37 - HikariPool-1 - Start completed.
+2020-09-03 14:45:37 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:d://test'
+2020-09-03 14:45:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 14:45:37 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 14:45:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 14:45:38 - HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-03 14:45:38 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 14:45:38 - Unable to start LiveReload server
+2020-09-03 14:45:38 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 14:45:39 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-03 14:45:40 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 14:45:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 14:45:41 - Spring Data repositories initialized!
+2020-09-03 14:45:41 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16a8852f, org.springframework.security.web.context.SecurityContextPersistenceFilter@70970c2f, org.springframework.security.web.header.HeaderWriterFilter@525bc75f, org.springframework.security.web.authentication.logout.LogoutFilter@1c70b3f6, com.alk.project.demo.security.JwtRequestFilter@de562dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45770c81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29ebe957, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19943f45, org.springframework.security.web.session.SessionManagementFilter@690cfbaf, org.springframework.security.web.access.ExceptionTranslationFilter@4de100e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@590b2fb5]
+2020-09-03 14:45:41 - No spring.application.name found, defaulting to 'application'
+2020-09-03 14:45:41 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 14:45:41 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 14:45:41 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 14:45:41 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 14:45:43 - Cannot determine local hostname
+2020-09-03 14:45:43 - Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-03 14:45:45 - Cannot determine local hostname
+2020-09-03 14:45:45 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 14:45:45 - Spring Data repositories initialized!
+2020-09-03 14:45:45 - Started DemoApplication in 18.157 seconds (JVM running for 22.426)
+2020-09-03 14:46:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 14:46:15 - Initializing Servlet 'dispatcherServlet'
+2020-09-03 14:46:15 - Completed initialization in 10 ms
+2020-09-03 14:46:37 - ===>>> Service method : EmployeeServiceImp.getEmployees()
+2020-09-03 14:46:37 - ===>>> Service Return : [Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]]
+2020-09-03 14:46:37 - ===>>> Controller method : EmployeeController.getEmployee()
+2020-09-03 14:46:37 - ===>>> Controller Return : <200 OK OK,[Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]],[]>
+2020-09-03 17:21:21 - No active profile set, falling back to default profiles: default
+2020-09-03 17:21:23 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-03 17:21:23 - Finished Spring Data repository scanning in 287ms. Found 2 JPA repository interfaces.
+2020-09-03 17:21:23 - BeanFactory id=37fbdecf-6ae5-3cbc-a212-da2546d7c5d2
+2020-09-03 17:21:23 - Bean 'com.alk.project.demo.feign.FeignClientImp' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 17:21:24 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@51eaeffd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 17:21:24 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-09-03 17:21:25 - Tomcat initialized with port(s): 8082 (http)
+2020-09-03 17:21:25 - Starting service [Tomcat]
+2020-09-03 17:21:25 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-03 17:21:27 - Initializing Spring embedded WebApplicationContext
+2020-09-03 17:21:27 - Root WebApplicationContext: initialization completed in 4996 ms
+2020-09-03 17:21:27 - HikariPool-1 - Starting...
+2020-09-03 17:21:27 - HikariPool-1 - Start completed.
+2020-09-03 17:21:27 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:d://test'
+2020-09-03 17:21:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-03 17:21:28 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-03 17:21:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-03 17:21:28 - HHH000412: Hibernate ORM core version 5.4.20.Final
+2020-09-03 17:21:28 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-03 17:21:28 - Unable to start LiveReload server
+2020-09-03 17:21:28 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 17:21:29 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-03 17:21:29 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-03 17:21:29 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-03 17:21:30 - Spring Data repositories initialized!
+2020-09-03 17:21:30 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4892c7d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@f398e0a, org.springframework.security.web.header.HeaderWriterFilter@1752e205, org.springframework.security.web.authentication.logout.LogoutFilter@4a36d695, com.alk.project.demo.security.JwtRequestFilter@12683adf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c8387fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@377cacd8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d22326a, org.springframework.security.web.session.SessionManagementFilter@652c1a0, org.springframework.security.web.access.ExceptionTranslationFilter@2ad36518, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7625640d]
+2020-09-03 17:21:30 - No spring.application.name found, defaulting to 'application'
+2020-09-03 17:21:30 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 17:21:30 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 17:21:30 - No URLs will be polled as dynamic configuration sources.
+2020-09-03 17:21:30 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-09-03 17:21:33 - Cannot determine local hostname
+2020-09-03 17:21:33 - Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-03 17:21:34 - Cannot determine local hostname
+2020-09-03 17:21:34 - Triggering deferred initialization of Spring Data repositories…
+2020-09-03 17:21:34 - Spring Data repositories initialized!
+2020-09-03 17:21:35 - Started DemoApplication in 17.186 seconds (JVM running for 21.645)
+2020-09-03 17:21:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-03 17:21:39 - Initializing Servlet 'dispatcherServlet'
+2020-09-03 17:21:39 - Completed initialization in 14 ms
+2020-09-03 17:21:41 - ===>>> Service method : EmployeeServiceImp.getEmployees()
+2020-09-03 17:21:41 - ===>>> Service Return : [Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]]
+2020-09-03 17:21:41 - ===>>> Controller method : EmployeeController.getEmployee()
+2020-09-03 17:21:41 - ===>>> Controller Return : <200 OK OK,[Employee [id=1, firstName=aloke, lastName=basak], Employee [id=2, firstName=test, lastName=test1]],[]>
+2020-09-03 17:21:50 - ===>>> Dao method : CrudRepository.findById(..)
+2020-09-03 17:21:50 - ===>>> Dao Return : Optional[Employee [id=2, firstName=test, lastName=test1]]
+2020-09-03 17:21:50 - ===>>> Service method : EmployeeServiceImp.getEmployeeById(..)
+2020-09-03 17:21:50 - ===>>> Service Return : Optional[Employee [id=2, firstName=test, lastName=test1]]
+2020-09-03 17:21:50 - ===>>> Controller method : EmployeeController.findByIdEmployee(..)
+2020-09-03 17:21:50 - ===>>> Controller Return : <200 OK OK,Optional[Employee [id=2, firstName=test, lastName=test1]],[]>
